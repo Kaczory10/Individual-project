@@ -1,0 +1,174 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 18px;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(243, 235, 235);
+  font-size: 19px;
+  display: inline-block;
+  font-weight: 600;
+}
+
+header {
+  background-image: url(../images/background.png);
+  padding: 2% 10% 0%;
+}
+
+h2 { 
+  color: #ffd59a;
+  font-size: 4em;
+}
+
+.logo {
+  color: rgb(243, 235, 235);
+  margin: 0;
+}
+
+.title {
+  margin: 0;
+}
+
+.line1 {
+  text-align: left;
+  padding-left: 20%;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.line2 {
+  text-align: right;
+  padding-right: 20%;
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+/* section */
+.projects {
+  max-width: 600px;
+  margin: 0.5rem auto;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.75rem;
+}
+
+article:nth-child(odd) .image {
+  grid-column: 2;
+}
+
+article:nth-child(odd) .data {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#image-2 {
+  background-image: url(../images/coffee-2.png);
+}
+
+#image-1 {
+  background-image: url(../images/coffee-1.png);
+}
+
+#image-3 {
+  background-image: url(../images/coffee-3.png);
+}
+
+.dupa {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.line4 {
+  border-top: 4px solid #ffd59a;
+  width: 20%;
+  text-align: left;
+  margin-right: 10%;
+}
+
+h4 {
+  margin-bottom: 0%;
+}
+
+.number {
+  background-image: url(../images/one.png);
+  background-repeat: no-repeat;
+  background-size: 100px 50px;
+  background-position: right 10px bottom 10px;
+}
+
+.image {
+  padding: 0;
+  background-size: cover;
+  box-shadow: 1px 1px 10px rgb(104, 104, 108), 0 0 25px rgb(104, 104, 108),
+    0 0 10px rgb(104, 104, 108);
+}
+
+.data {
+  color: #050505;
+}
+
+.medal {
+  padding: 0.75rem;
+}
+
+/* about us */
+.about-us {
+  background-image: url(../images/about-us.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 5%;
+  margin-top: 10%;
+}
+
+.line3 {
+  border-top: 3px solid #ffd59a;
+  text-align: center;
+  width: 20%;
+  margin-bottom: 8%;
+}
+
+.discover {
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 3%;
+}
+
+span {
+  color: #ffd59a;
+}
+
+footer {
+  font-size: 30%;
+  text-align: center;
+  margin: 1%;
+}
+
+.portfolio {
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 20% 10%;
+}
+
+.join {
+  text-align: right;
+}
+
+.lettering{
+  text-align: center;
+}
